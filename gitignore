@@ -1,0 +1,45 @@
+# Compiled object files
+*.o
+*.obj
+
+# Static libraries
+*.a
+*.lib
+
+# Shared libraries
+*.so
+*.so.*
+*.dylib
+*.dll
+
+# # Executables / output files
+*.out
+a.out
+
+# Compiled executables with no extension (e.g. g++ main.cpp -o main)
+# Ignores all extensionless files in the repo root and subdirectories
+*
+!*.*
+!*/
+
+# Build directories
+build/
+out/
+bin/
+dist/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE / editor
+.vscode/
+.idea/
+*.user
+*.suo
+
+# macOS
+.DS_Store
